@@ -8,6 +8,9 @@ from collections import defaultdict
 
 class Factor:
     """ static class for factor calculation """
+    # TODO: 在使用因子之前做条件检验，看看这些因子有哪些特性，（前人没用过的 
+    # 例如物理上的假设条件在股市上不存在，那么我们可能要做一些针对性的调整
+    # 小波： 还可以对信号做拆解。原来的信号可能很难找到规律，但是我们可以使用小波分析对原始信号做拆解。
 
     @staticmethod
     def max(x):
